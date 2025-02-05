@@ -12,6 +12,7 @@
                 ".ru",
                 ".рф",
                 "vk.com",
+                ".su"
             ],
             "outbound": "direct"
         },
