@@ -1,0 +1,28 @@
+{
+    "rules": [
+        {
+            "domain_keyword": [
+                "yandex",
+                "yastatic"
+            ],
+            "outbound": "direct"
+        },
+        {
+            "domain_suffix": [
+                ".ru",
+                ".рф",
+                "vk.com",
+                ".su",
+                ".by"
+            ],
+            "outbound": "direct"
+        },
+        {
+            "outbound": "direct",
+            "process_name": [
+                "transmission",
+                "codium"
+            ]
+        }
+    ]
+}
